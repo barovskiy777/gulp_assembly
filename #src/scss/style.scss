@@ -1,0 +1,31 @@
+//mixins
+@import "mixins";
+
+@import "fonts";
+
+
+h1 {
+    font-size: 39px;
+    color:yellow;
+
+    @media (max-width: 767px){
+        font-size: 15px;
+    }
+}
+
+.igg {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background: url("../img/fut.jpg") 0 0/contain no-repeat;
+    
+}
+
+div {
+    font-size: 30px;
+    @media (max-width: 767px){
+        font-size: 20px;
+    }
+}
+
+
